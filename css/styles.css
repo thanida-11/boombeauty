@@ -1,0 +1,194 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+.container-fluid {
+padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff5200;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Image */
+.title-image {
+width: 20%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download bottons */
+
+.download-button {
+margin: 5% 3% 5% 0;
+text-align: left;
+}
+
+
+/* Title section */
+#title{
+background-color: #ff5200;
+color: #fff;
+text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+width: 60%;
+transform: rotate(25deg);
+position: absolute;
+right: 30%;
+}
+
+.biggest {
+    text-decoration: underline;
+}
+
+/* Features section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #f37121;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff5200;
+}
+
+
+/* Testimonials Section  */
+#testimonials {
+  background-color: #f37121;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #252525;
+  padding-bottom: 3%;
+  padding-top: 3%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+  width: 30%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.btn:hover {
+    color:  #ff5200;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+.footer-link {
+  color:  #ff5200;
+  padding: 50px 0 20px;
+    margin: 20px 5px;
+}
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+/* Media query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
